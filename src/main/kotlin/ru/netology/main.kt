@@ -15,4 +15,14 @@ fun main() {
         else "Понравилось $likes $people"
     println(text)
 }
+/*было так:
+*     val likes = 21
+    val person = "человеку"
+    val people = "людям"
+
+
+    val text =
+        if (likes == 1 || likes == 21 || likes == 31) "Понравилось $likes $person" else "Понравилось $likes $people"
+    println(text)
+*/
 
